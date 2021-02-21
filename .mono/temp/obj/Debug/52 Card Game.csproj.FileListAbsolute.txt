@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\52 Card Game\.mono\temp\bin\Debug\52 Card Game.dll
+C:\Users\Admin\Documents\52 Card Game\.mono\temp\bin\Debug\52 Card Game.pdb
+C:\Users\Admin\Documents\52 Card Game\.mono\temp\obj\Debug\52 Card Game.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\52 Card Game\.mono\temp\obj\Debug\52 Card Game.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\52 Card Game\.mono\temp\obj\Debug\52 Card Game.AssemblyInfo.cs
+C:\Users\Admin\Documents\52 Card Game\.mono\temp\obj\Debug\52 Card Game.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\52 Card Game\.mono\temp\obj\Debug\52 Card Game.dll
+C:\Users\Admin\Documents\52 Card Game\.mono\temp\obj\Debug\52 Card Game.pdb
