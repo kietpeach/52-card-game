@@ -20,8 +20,9 @@ public class Card : TextureButton
         Expand = true;
         StretchMode = StretchModeEnum.KeepAspectCentered;
     }
-    public Card(int deck, bool x)
+    public Card(int d, bool x)
     {
+        deck = d;
         var face = GD.Load("res://Assets/cards/card-" + deck + ".png") as Texture;
         var back = GD.Load("res://Assets/cards/cardBack_red2.png") as Texture;
         //ngửa bài

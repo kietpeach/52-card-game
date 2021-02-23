@@ -6,3 +6,11 @@ C:\Users\Admin\Documents\52 Card Game\.mono\temp\obj\Debug\52 Card Game.Assembly
 C:\Users\Admin\Documents\52 Card Game\.mono\temp\obj\Debug\52 Card Game.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\52 Card Game\.mono\temp\obj\Debug\52 Card Game.dll
 C:\Users\Admin\Documents\52 Card Game\.mono\temp\obj\Debug\52 Card Game.pdb
+C:\Users\ASUS\Documents\52-card-game\.mono\temp\bin\Debug\52 Card Game.dll
+C:\Users\ASUS\Documents\52-card-game\.mono\temp\bin\Debug\52 Card Game.pdb
+C:\Users\ASUS\Documents\52-card-game\.mono\temp\obj\Debug\52 Card Game.csprojAssemblyReference.cache
+C:\Users\ASUS\Documents\52-card-game\.mono\temp\obj\Debug\52 Card Game.AssemblyInfoInputs.cache
+C:\Users\ASUS\Documents\52-card-game\.mono\temp\obj\Debug\52 Card Game.AssemblyInfo.cs
+C:\Users\ASUS\Documents\52-card-game\.mono\temp\obj\Debug\52 Card Game.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\52-card-game\.mono\temp\obj\Debug\52 Card Game.dll
+C:\Users\ASUS\Documents\52-card-game\.mono\temp\obj\Debug\52 Card Game.pdb
