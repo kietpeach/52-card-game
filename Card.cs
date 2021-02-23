@@ -4,11 +4,11 @@ using System;
 public class Card : TextureButton
 {
 
-    public int suit;
-    public int value;
+    public int deck;
+    // public int suit;
+    // public int value;
     public string face;
     public string back;
-    public bool xi;
     public Card cardChoosed;
 
 
@@ -20,12 +20,9 @@ public class Card : TextureButton
         Expand = true;
         StretchMode = StretchModeEnum.KeepAspectCentered;
     }
-    public Card(int s, int v, bool x)
+    public Card(int deck, bool x)
     {
-        xi = x;
-        suit = s;
-        value = v;
-        var face = GD.Load("res://Assets/cards/card-" + suit + "-" + value + ".png") as Texture;
+        var face = GD.Load("res://Assets/cards/card-" + deck + ".png") as Texture;
         var back = GD.Load("res://Assets/cards/cardBack_red2.png") as Texture;
         //ngửa bài
         if (x == true)
@@ -49,7 +46,7 @@ public class Card : TextureButton
         {
             cardChoosed = c;
             GD.Print(cardChoosed);
-            GD.Print("Card ban chon la:"+cardChoosed.value+"-"+cardChoosed.suit);
+            GD.Print("Card ban chon la:" + cardChoosed.deck);
             this.RectPosition = this.RectPosition + new Vector2(0, -20);
         }
         else
@@ -60,5 +57,5 @@ public class Card : TextureButton
         }
 
     }
-  
+
 }

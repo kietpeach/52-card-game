@@ -17,7 +17,7 @@ public class Hit : Button
             Card card = this.GetParent().GetNode("player1").GetChild<Card>(i);
             if (card.cardChoosed != null)
             {
-                card.RectPosition = new Vector2(400+j, -200+j);
+                card.RectPosition = new Vector2(400, -200);
                 GD.Print(card.cardChoosed);
                 card.RectScale = new Vector2((float)0.8,(float)0.8);
                 card.cardChoosed.Disabled = true;
