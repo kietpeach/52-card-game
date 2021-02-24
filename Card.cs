@@ -4,7 +4,7 @@ using System;
 public class Card : TextureButton
 {
 
-    public int deck;
+    public int cardID;
     // public int suit;
     // public int value;
     public string face;
@@ -20,10 +20,10 @@ public class Card : TextureButton
         Expand = true;
         StretchMode = StretchModeEnum.KeepAspectCentered;
     }
-    public Card(int d, bool x)
+    public Card(int c, bool x)
     {
-        deck = d;
-        var face = GD.Load("res://Assets/cards/card-" + deck + ".png") as Texture;
+        cardID = c;
+        var face = GD.Load("res://Assets/cards/card-" + cardID + ".png") as Texture;
         var back = GD.Load("res://Assets/cards/cardBack_red2.png") as Texture;
         //ngửa bài
         if (x == true)
@@ -47,7 +47,7 @@ public class Card : TextureButton
         {
             cardChoosed = c;
             GD.Print(cardChoosed);
-            GD.Print("Card ban chon la:" + cardChoosed.deck);
+            GD.Print("Card ban chon la:" + cardChoosed.cardID);
             this.RectPosition = this.RectPosition + new Vector2(0, -20);
         }
         else
