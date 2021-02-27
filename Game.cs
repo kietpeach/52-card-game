@@ -40,6 +40,7 @@ public class Game : Control
     }
     public void dealHand()
     {
+        //Add array 13 lá bài vào Node 
         var c = 0;
         for (c = 0; c < 13; c++)
         {
