@@ -75,9 +75,9 @@ margin_bottom = 204.0
 rect_min_size = Vector2( 0, 45 )
 
 [node name="LoginButton" type="TextureButton" parent="NinePatchRect/VBoxContainer"]
-margin_left = 122.0
+margin_left = 123.0
 margin_top = 208.0
-margin_right = 342.0
+margin_right = 343.0
 margin_bottom = 263.0
 rect_min_size = Vector2( 220, 55 )
 size_flags_horizontal = 4

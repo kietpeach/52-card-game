@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="52 Card Game"
-run/main_scene="res://Lobby.tscn"
+run/main_scene="res://Login.tscn"
 config/icon="res://icon.png"
 
 [display]
