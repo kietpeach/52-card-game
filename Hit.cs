@@ -28,9 +28,7 @@ public class Hit : Button
             }
         }
     }
-    public void Sort(){
-        
-    }
+
 
 
 

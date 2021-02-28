@@ -122,5 +122,13 @@ margin_bottom = 616.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Sort" type="Button" parent="."]
+margin_left = 846.0
+margin_top = 448.0
+margin_right = 1054.0
+margin_bottom = 480.0
+text = "Sort"
 [connection signal="pressed" from="Hit" to="Hit" method="_on_Hit_pressed"]
 [connection signal="pressed" from="Back" to="Back" method="_on_Back_pressed"]
+[connection signal="pressed" from="Sort" to="." method="_on_Sort_pressed"]
