@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Documents\\52-card-game\\52 Card Game.csproj": {}
+    "C:\\USERS\\ASUS\\DOCUMENTS\\52-CARD-GAME\\52 Card Game.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Documents\\52-card-game\\52 Card Game.csproj": {
+    "C:\\USERS\\ASUS\\DOCUMENTS\\52-CARD-GAME\\52 Card Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\52-card-game\\52 Card Game.csproj",
+        "projectUniqueName": "C:\\USERS\\ASUS\\DOCUMENTS\\52-CARD-GAME\\52 Card Game.csproj",
         "projectName": "52 Card Game",
-        "projectPath": "C:\\Users\\ASUS\\Documents\\52-card-game\\52 Card Game.csproj",
+        "projectPath": "C:\\USERS\\ASUS\\DOCUMENTS\\52-CARD-GAME\\52 Card Game.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Documents\\52-card-game\\.mono\\temp\\obj\\",
+        "outputPath": "C:\\USERS\\ASUS\\DOCUMENTS\\52-CARD-GAME\\.mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net472"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +39,12 @@
       "frameworks": {
         "net472": {
           "targetAlias": "net472",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.15.5, )"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }

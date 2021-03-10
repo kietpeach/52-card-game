@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "n5a/QM0Sbw9aI52JrfTeCx7cDu/kCD/6284wGjzF0k/CKvZsjLYrT7Ugjk3RRgixGuEzUlipkdBrgpLnXEPwUA==",
+  "dgSpecHash": "slQ8nn0I+eHYLdL5XiHw/jdyodsP54R9OfJQrsaYS3IeZ6dMz6CqjapogsV3f35HI6o7AvJMcb+pax3HUqogHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Documents\\52-card-game\\52 Card Game.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\USERS\\ASUS\\DOCUMENTS\\52-CARD-GAME\\52 Card Game.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\google.protobuf\\3.15.5\\google.protobuf.3.15.5.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
   "logs": []
 }
